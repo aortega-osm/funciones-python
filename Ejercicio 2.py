@@ -1,9 +1,9 @@
 #Ejercicio realizado por mi
 def multiplicar_valores(*lista):
-    resulta=1
+    resulta=2
     for numero in lista:
         resulta *= numero
-        return resulta
+    return resulta
 print(multiplicar_valores(2, 3, 4, 9))
 
 
